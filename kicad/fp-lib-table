@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KYCON_SCART_K-SCARTX-022")(type "KiCad")(uri "${KIPRJMOD}/KYCON_SCART_K-SCARTX-022")(options "")(descr ""))
+  (lib (name "MAX662ACPA")(type "KiCad")(uri "${KIPRJMOD}/MAX662ACPA")(options "")(descr ""))
+  (lib (name "BOOMELE AV-5")(type "KiCad")(uri "${KIPRJMOD}/boomele_av-5")(options "")(descr ""))
+  (lib (name "C322C224M5U5TA")(type "KiCad")(uri "${KIPRJMOD}/C322C224M5U5TA")(options "")(descr ""))
+  (lib (name "SS12D10G6-WJ")(type "KiCad")(uri "${KIPRJMOD}/C7431059")(options "")(descr ""))
+)
