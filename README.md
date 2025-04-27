@@ -3,7 +3,7 @@
 
 # Disclaimer
 
-This device has been designed by someone that doesn't have a clue about electronics. At this moment, this design has not been tested. If you decide to build it and use it, you do it on your own responisibility.
+This device has been designed by someone that doesn't have a clue about electronics. If you decide to build it and use it, you do it on your own responisibility.
 
 # MISTER2SCART
 
@@ -11,7 +11,7 @@ This PCB is designed to connect a MiSTer VGA and audio analog output to a SCART 
 
 The device is designed for **RGB output only**, it will probably not work with composite or s-video signals.
 
-The device expects **5V from VGA** pin 9, if you use it with a HDMI to VGA dongle in Direct Video, it may  not work, as some of these dongles doesn't provide this voltage.
+The device expects **5V from VGA** pin 9, if you use it with a HDMI to VGA dongle in Direct Video, it may not work, as some of these dongles doesn't provide this voltage.
 
 ![3D preview](images/mister2scart.png)
 
