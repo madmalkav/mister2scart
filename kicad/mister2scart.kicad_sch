@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "3aa6d667-efe4-4162-868c-7fd5137a03f2")
 	(paper "A4")
+	(title_block
+		(title "MiSTer2SCART")
+		(comment 1 "https://github.com/madmalkav/mister2scart")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
@@ -2675,7 +2679,7 @@
 		)
 		(uuid "32cd0907-9241-464b-9b26-a5d0e1627c29")
 	)
-	(text "0.2"
+	(text "0.3"
 		(exclude_from_sim no)
 		(at 270.51 193.548 0)
 		(effects
@@ -2685,14 +2689,14 @@
 		)
 		(uuid "acddc428-03cf-4b4f-acd3-a9fcc45a4b96")
 	)
-	(text_box "Scart pin 8: 5v can make TV switch to 16:9 automatically.\n12v sets to 4:3. The MAX662ASHDN pin id used to control this:\nSHDN to ground is +12V and SHDN to 5V is VIN\n\nRCA added for lightguns"
+	(text_box "Scart pin 8: 5v can make TV switch to 16:9 automatically.\n12v sets to 4:3. The MAX662ASHDN pin is used to control this:\nSHDN to ground is +12V and SHDN to 5V is VIN\n\nScart pin 16: we use the fact that even when using composite\nsync MiSTer will still send the vsync signal on VGA pin 14 to \nsignal the scart pin 16 to use RGB.\n\nRCA added for lightguns"
 		(exclude_from_sim no)
 		(at 13.97 13.97 0)
-		(size 91.44 19.05)
+		(size 91.44 29.21)
 		(margins 1.3335 1.3335 1.3335 1.3335)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
